@@ -140,12 +140,12 @@ export const Stage2IdeaExtraction: React.FC<Stage2Props> = ({
           <button
             onClick={onGenerateScript}
             disabled={isGenerating}
-            className="w-full py-3.5 bg-gradient-to-r from-[#6200ee] to-[#4800b2] hover:from-[#5300cd] hover:to-[#38008c] text-white text-sm font-bold rounded-xl shadow-md hover:shadow-lg transition-all transform hover:-translate-y-0.5 flex items-center justify-center gap-2 group cursor-pointer"
+            className="w-full h-[68px] bg-gradient-to-r from-[#6200ee] via-[#5200db] to-[#4800b2] hover:from-[#5300cd] hover:to-[#38008c] text-white text-base font-extrabold rounded-2xl shadow-lg hover:shadow-xl transition-all transform hover:-translate-y-0.5 active:translate-y-0 flex items-center justify-center gap-2.5 group cursor-pointer border border-purple-400/30"
           >
             {isGenerating ? (
-              <RefreshCw className="w-5 h-5 animate-spin" />
+              <RefreshCw className="w-6 h-6 animate-spin" />
             ) : (
-              <Bolt className="w-5 h-5 text-yellow-300 fill-yellow-300 group-hover:scale-110 transition-transform" />
+              <Bolt className="w-6 h-6 text-yellow-300 fill-yellow-300 group-hover:scale-110 transition-transform" />
             )}
             <span>[ 이 주제로 AI 대본 생성하기 ]</span>
           </button>
