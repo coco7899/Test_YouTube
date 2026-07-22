@@ -1,0 +1,6 @@
+{
+  "name": "Creator Hub AI",
+  "description": "AI 크리에이터 기획 지원 플랫폼 - 실시간 트렌드 키워드, 해외 벤치마킹, AI 레시피, 맞춤형 기획서 및 숏폼 대본 생성기",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
